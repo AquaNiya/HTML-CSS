@@ -69,6 +69,11 @@
     border-radius:0px;
     margin-left: 8px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .requestnow-button:hover{
+    opacity: 0.8;
   }
 
   .addtocart-button{
@@ -82,16 +87,26 @@
     cursor: pointer;
   }
 
+  .addtocart-button:hover {
+    background-color: rgb(245,205,3);
+  }
+
   .signup-button{
     background-color:rgb(46, 164, 69);
     color:rgb(242, 237, 237);
     font-weight: bold;
+    font-size: 15px;
     border:none;
     height:36px;
     width: 100px;
     border-radius: 4px;
     margin-left: 8px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .signup-button:hover{
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
   }
 
   .getstarted-button{
@@ -104,6 +119,11 @@
     border-radius: 4px;
     cursor: pointer;
     margin-left: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .getstarted-button:hover{
+    background-color:rgb(99, 60, 156);
   }
 
   .download-button{
@@ -118,6 +138,12 @@
     border-radius: 4px;
     cursor: pointer;
     margin-left: 8px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .download-button:hover{
+    background-color:rgb(108, 117, 125);
+    color:white;
   }
 
   .linkedin-button{
@@ -130,6 +156,11 @@
     border-radius: 18px;
     cursor: pointer;
     margin-left: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .linkedin-button:hover{
+    background-color:rgb(2, 70, 138);
   }
 
   .save-button{
@@ -146,6 +177,13 @@
     margin-left: 8px;
     margin-right:10px;
     cursor: pointer;
+    transition: background-color 0.15s,
+      border-width 0.15s;
+  }
+
+  .save-button:hover{
+    background-color:rgb(226, 240, 254);
+    border-width: 2px;
   }
 
 </style>
@@ -198,6 +236,9 @@
     margin-left:200px;
     margin-top:auto;
   }
+  .amazon-link:hover {
+    color: rgb(199,81,31);
+  }
 
   .title {
     font-size: 24px;
@@ -218,6 +259,12 @@
     margin-right: 8px;
     cursor: pointer;
   }
+  .add-to-cart-button:hover {
+    background-color: rgb(247, 202, 0);
+  }
+  .add-to-cart-button:active {
+    opacity: 0.5;
+  }
 
   .buy-now-button {
     background-color: rgb(255, 164, 28);
@@ -226,6 +273,13 @@
     width: 110px;
     border-radius: 15px;
     cursor: pointer;
+  }
+
+  .buy-now-button:hover {
+    background-color: rgb(250, 137, 0);
+  }
+  .buy-now-button:active {
+    opacity: 0.5;
   }
 </style>
 
