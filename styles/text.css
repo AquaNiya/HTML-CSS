@@ -1,0 +1,62 @@
+p {
+  font-family: Roboto; /* font-family is a property that sets the font of the text
+                        this allows to clear the code and apply style to all paragraphs where font family is same */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title {
+  font-size: 18px; /* font-size is a property that sets the size of the text */
+  font-weight: bold; /* font-weight is a property that sets the weight of the text */
+  width: 280px; /* width is a property that sets the width of the text */
+  line-height: 24px; /* line-height is a property that sets the height of the text */
+  margin-bottom: 5px; /* margin-bottom is a property that sets the bottom margin of the text */
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-description {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 20px;
+  margin-bottom: 100px;
+}
+
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.span-example {
+  color: red;
+  margin-left: 12px;
+}
+
+.span-example:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.shop-link {
+  cursor: pointer;
+}
+
+.shop-link:hover {
+  text-decoration: underline;
+}

@@ -1,96 +1,41 @@
 <!-- Style created of youtube.com and the general technique used is;
-Create element with HTML & style with CSS one by one -->
+     Create element with HTML & style with CSS one by one -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Practice</title> 
+    <link rel="stylesheet"href="styles/text.css">
+  </head>
+  <body>
+    <!-- as we're targeting the video title, we can use a class name of "video-title" to style it -->
 
-<style>
-  p{
-    font-family: Arial; /* font-family is a property that sets the font of the text
-                        this allows to clear the code and apply style to all paragraphs where font family is same */
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .video-title { 
-    font-size: 18px; /* font-size is a property that sets the size of the text */
-    font-weight: bold; /* font-weight is a property that sets the weight of the text */
-    width : 280px; /* width is a property that sets the width of the text */
-    line-height: 24px; /* line-height is a property that sets the height of the text */
-    margin-bottom: 5px; /* margin-bottom is a property that sets the bottom margin of the text */
-  } 
+    <p class="video-title">
+      Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
 
-  .video-stats{
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    margin-bottom:20px;
-  }
+    <p class="video-stats">
+      3.4M views &#183; 6 months ago
+    </p>
 
-  .video-author{
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    margin-bottom:20px;
-  }
+    <p class="video-author">
+      Marques Brownlee &#10003;
+    </p>
 
-  .video-description{ 
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    width: 280px;
-    line-height: 20px;
-    margin-bottom:100px;
-  }
+    <p class="video-description">
+      Talking tech and AI on the heels of Google
+      I/O. Also a daily driver phone reveal from
+      Google's CEO. Shoutout to Sundar!
+    </p>
 
-  .apple-text{
-    margin-bottom: 50px;
-    font-size: 14px;
-    background-color: rgb(227, 65, 64);
-    color: white;
-    text-align: center;
-    padding-top: 18px;
-    padding-bottom: 18px;
-  }
+    <!-- Styling text from apple -->
+    <p class="apple-text">
+      Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;</span>
+    </p>
 
-  .span-example{
-    color: red;
-    margin-left:12px; 
-  }
-  .span-example:hover{
-    color: blue;
-    text-decoration: underline;
-  }
-  
-  .shop-link{
-    cursor: pointer;
-  }
+    <!-- text element -->
+    <p>
+      Shop early for the <strong>best selection</strong> of <u>holiday</u> favourites. <span class="span-example">Shop now &#62;</span>
+    </p>
+  </body>
+</html>
 
-  .shop-link:hover{
-    text-decoration: underline;
-  }
-</style>
-
-<!-- as we're targeting the video title, we can use a class name of "video-title" to style it -->
-
-<p class ="video-title"> 
-  Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
-
-<p class ="video-stats">
-  3.4M views &#183; 6 months ago
-</p>
-
-<p class ="video-author">
-  Marques Brownlee &#10003;
-</p>
-
-<p class ="video-description">
-  Talking tech and AI on the heels of Google 
-  I/O. Also a daily driver phone reveal from 
-  Google's CEO. Shoutout to Sundar!
-</p>
-
-
-<!--Styling text from apple -->
-<p class="apple-text">
-  Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;</span>
-</p>
-
-<!-- text element -->
-<p>
-  Shop early for the <strong>best selection</strong> of <u>holiday</u> favourites.      <span class="span-example">Shop now &#62;</span>
-</p>
